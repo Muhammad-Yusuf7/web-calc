@@ -18,5 +18,6 @@ a.onclick = function hello(){
     }else if (arg === '/'){
         out.textContent = String(num1 / num2);
     }else{
+        alert('введите только эти символы: (+,-,*,/)')
     }
 }
